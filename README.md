@@ -5,6 +5,7 @@ Passionate about cybersecurity, automation, and building real-world tools that s
 
 This portfolio showcases my growth through hands-on projects in Python, C++, Node.js, and web development.
 
+Link for portfolio: https://terminalkid09-portfolio.netlify.app
 ## Projects
 
 - 🔑 **Console Password Manager** — C++  
