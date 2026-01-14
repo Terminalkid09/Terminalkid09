@@ -14,10 +14,6 @@ Link for portfolio: https://terminalkid09-portfolio.netlify.app
 - 📚 **REST API Library** — Node.js & Express  
   CRUD API to manage books with GET, POST, PUT, DELETE endpoints.
 
-- 🔒 **Private Diary Web App** — HTML/CSS/JavaScript  
-  Secure notes with password protection and local storage.  
-  [🔒 Live Demo](https://private-diary-live.netlify.app)
-
 - 🎮 **Text-Based RPG Game** — Python  
   World map, enemies, bosses, shop, inventory and combat system.  
   Built with Pyodide to run directly in browser.  
@@ -27,8 +23,10 @@ Link for portfolio: https://terminalkid09-portfolio.netlify.app
   Modular bot for Open Source Intelligence (OSINT) and cybersecurity recon tasks.  
   Includes IP lookup, breach check, port scanning, WHOIS, social scan, and more.
 
-- 🃏 **Console Blackjack Game** — C++  
-  *(Archived — early project, no longer maintained)*
+- 🔐 **VaultX** — Full-Stack Note Management System
+  Secure web app to register, login and manage notes with JWT authentication.  
+  Built with React, Node.js, Express and MongoDB.  
+  [🔐 GitHub Repository](https://github.com/Terminalkid09/vaultx)
 
 More projects in development.
 
