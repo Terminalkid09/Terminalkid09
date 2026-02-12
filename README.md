@@ -41,6 +41,11 @@ https://terminalkid09-portfolio-react.netlify.app/
   Built with React, Node.js, Express, and MongoDB.  
   **GitHub:** https://github.com/Terminalkid09/vaultx
 
+- 📊 **SQL Security Dashboard** — Python + FastAPI + SQL 
+  Interactive dashboard for analyzing security logs with automated data enrichment and 8 dynamic visualizations.  
+  **Live Demo:** https://sql-dashboard-m2gh.onrender.com  
+  **GitHub:** https://github.com/Terminalkid09/incident-response-sql
+
 More projects in development.
 
 ---
@@ -78,5 +83,5 @@ My goal is to become a full‑stack developer with strong cybersecurity foundati
 ## 📬 Contact
 
 - GitHub: [@Terminalkid09](https://github.com/Terminalkid09)  
-- LinkedIn: [Cristian Trif](https://www.linkedin.com/in/cristian-trif-073a883a1)  
+- LinkedIn: [Terminalkid09](https://www.linkedin.com/in/cristian-trif-073a883a1)  
 - Email: [Terminalkid09@gmail.com](mailto:Terminalkid09@gmail.com)
