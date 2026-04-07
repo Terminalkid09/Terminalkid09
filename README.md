@@ -3,7 +3,7 @@
 Personal portfolio of a 16-year-old self-taught developer from Italy.  
 Passionate about cybersecurity, automation, and building real-world tools that solve technical challenges.
 
-This portfolio showcases my growth through hands-on projects in Python, C++, Node.js, web development, and modern deployment tools like Docker.
+This portfolio showcases my growth through hands-on projects in Python, C++, SQL, web development, and modern deployment tools like Docker.
 
  **Live Portfolio:**  
 https://terminalkid09-portfolio-react.netlify.app/
@@ -35,6 +35,7 @@ https://terminalkid09-portfolio-react.netlify.app/
 - 🛡️ **AI Security Suite** - Python
   The **AI Security Suite** is a modular, microservice‑based security toolkit designed for real-world cybersecurity workflows.  
   It combines machine learning, OSINT techniques, anomaly detection, and password intelligence into a single, unified dashboard.
+  **GitHub:** https://github.com/Terminalkid09/ai-security-suite
 
 - 🔐 **VaultX** — Full-Stack Note Management System  
   Secure web app for registering, logging in, and managing notes with JWT authentication.  
@@ -46,6 +47,12 @@ https://terminalkid09-portfolio-react.netlify.app/
   **Live Demo:** https://sql-dashboard-m2gh.onrender.com  
   **GitHub:** https://github.com/Terminalkid09/incident-response-sql
 
+- 🖲️ **NodeTrace** - Full-Stack monitoring platform - Python/FastAPI + C#/C++/Java
+  Real-time monitoring and analytics with multi-language agents, real-time telemetry, alerts and
+  a modern web dashboard.
+  **GitHub:** https://github.com/Terminalkid09/nodetrace
+
+
 More projects in development.
 
 ---
@@ -53,16 +60,22 @@ More projects in development.
 ## Technologies & Skills
 
 ### **Languages**
-- Python • C++ • JavaScript • Node.js
+- Python • C# • Java • C++ • Javascript 
 
 ### **Web Development**
-- HTML • CSS • React • Express
+- HTML • CSS • FastAPI • React (basics)
+
+### **Database & SQL**
+- SQL • SQLite • SQLalchemy • Data analysis workflows • PostgreSQL
 
 ### **Cybersecurity & OSINT**
-- TryHackMe • Recon tools • WHOIS • DNS • Port scanning
+- TryHackMe • Recon tools • WHOIS • DNS • Port scanning • Basic OSINT automation
+
+### **Data & Monitoring**
+- Real-time telemetry • Alerting system • REST APIs • Dashboard development
 
 ### **Python Ecosystem**
-- Discord.py • aiohttp • phonenumbers • asyncio
+- Discord.py • aiohttp • phonenumbers • asyncio • automation scripts
 
 ### **DevOps & Deployment**
 - **Docker** • **Docker Compose**  
@@ -71,12 +84,15 @@ More projects in development.
 
 ---
 
-##  About Me
+## About Me
 
-I'm a resilient and curious developer who learns by doing.  
-I build tools that are reliable, secure, and impactful — blending hacker aesthetics with professional polish.
+I'm a backend‑focused developer with a strong interest in cybersecurity and system design.  
+I learn by building real tools, monitoring platforms, security utilities, data pipelines and refining them until they feel reliable, clean, and production‑ready.
 
-My goal is to become a full‑stack developer with strong cybersecurity foundations, creating software that solves real problems and showcases technical depth.
+My background blends backend engineering with practical cybersecurity fundamentals: Linux, networking, reconnaissance, and hands‑on experimentation (including structured study through resources like Kali‑based workflows).
+
+I enjoy creating software that solves real problems, with an emphasis on clarity, modularity, and technical depth.  
+My long‑term goal is to become a backend engineer with strong security awareness, capable of designing robust systems from the ground up.
 
 ---
 
