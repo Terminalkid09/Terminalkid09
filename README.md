@@ -12,14 +12,6 @@ https://terminalkid09-portfolio-react.netlify.app/
 
 ## Projects
 
-- 🔑 **Console Password Manager** — C++  
-  Terminal-based password manager with add, list, search, and secure password generation.  
-  **GitHub:** https://github.com/Terminalkid09/password-manager-cpp
-
-- 📚 **REST API Library** — Node.js & Express  
-  CRUD API for managing books with GET, POST, PUT, DELETE endpoints.  
-  **GitHub:** https://github.com/Terminalkid09/api-library-node
-
 - 🎮 **Text-Based RPG Game** — Python  
   World map, enemies, bosses, shop, inventory, and combat system.  
   Built with Pyodide to run directly in the browser.  
@@ -52,6 +44,11 @@ https://terminalkid09-portfolio-react.netlify.app/
   a modern web dashboard.
   **GitHub:** https://github.com/Terminalkid09/nodetrace
 
+- 🔴 **Phantom** — Offensive Security Framework — Python
+  Interactive CLI shell for penetration testing that orchestrates Nmap, Gobuster, 
+  Hydra, SQLmap, Metasploit and more in a single session with preview-driven 
+  command workflow, exploitability scoring and report generation.
+  **GitHub:** https://github.com/Terminalkid09/Phantom
 
 More projects in development.
 
@@ -69,7 +66,7 @@ More projects in development.
 - SQL • SQLite • SQLalchemy • Data analysis workflows • PostgreSQL
 
 ### **Cybersecurity & OSINT**
-- TryHackMe • Recon tools • WHOIS • DNS • Port scanning • Basic OSINT automation
+- TryHackMe • Recon tools • WHOIS • DNS • Port scanning • OSINT • Penetration testing • CLI framework development • CVE correlation
 
 ### **Data & Monitoring**
 - Real-time telemetry • Alerting system • REST APIs • Dashboard development
