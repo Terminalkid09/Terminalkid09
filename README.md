@@ -49,7 +49,10 @@ https://terminalkid09-portfolio-react.netlify.app/
   Hydra, SQLmap, Metasploit and more in a single session with preview-driven 
   command workflow, exploitability scoring and report generation.
   **GitHub:** https://github.com/Terminalkid09/Phantom
-
+  
+- 🛡️ **Aegis EDR Ecosystem** — Java + Spring Boot + Python + React
+  Modular detection, ingestion, and analysis stack for process telemetry. Includes a multi-OS agent, high-throughput gateway, and heuristic engine.
+  **GitHub:** https://github.com/Terminalkid09/aegis-ecosystem
 More projects in development.
 
 ---
@@ -95,6 +98,5 @@ My long‑term goal is to become a backend engineer with strong security awarene
 
 ## 📬 Contact
 
-- GitHub: [@Terminalkid09](https://github.com/Terminalkid09)  
-- LinkedIn: [Terminalkid09](https://www.linkedin.com/in/cristian-trif-073a883a1)  
+- GitHub: [@Terminalkid09](https://github.com/Terminalkid09)    
 - Email: [Terminalkid09@gmail.com](mailto:Terminalkid09@gmail.com)
