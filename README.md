@@ -1,102 +1,54 @@
-# Terminalkid09 — Developer Portfolio
+# Terminalkid09 — Backend & Security Engineer
 
-Personal portfolio of a 16-year-old self-taught developer from Italy.  
-Passionate about cybersecurity, automation, and building real-world tools that solve technical challenges.
+16-year-old self-taught developer from Italy. I build production-grade security systems, C2 frameworks, SIEM platforms, honeypot networks, and AI-powered security tooling.
 
-This portfolio showcases my growth through hands-on projects in Python, C++, SQL, web development, and modern deployment tools like Docker.
-
- **Live Portfolio:**  
-https://terminalkid09-portfolio-react.netlify.app/
+**Live Portfolio:** https://terminalkid09-portfolio-react.netlify.app/
 
 ---
 
-## Projects
+## Main Projects
 
-- 🎮 **Text-Based RPG Game** — Python  
-  World map, enemies, bosses, shop, inventory, and combat system.  
-  Built with Pyodide to run directly in the browser.  
-  **Live Demo:** https://terminal-rpg-live.netlify.app  
-  **GitHub:** https://github.com/Terminalkid09/adventure-game-py
+### 👻 Phantom — Offensive Security Framework v2.0.0
+Full-spectrum C2 framework with a native C++ beacon (30+ capabilities), AES-256-GCM encrypted C2 channel, AMSI/ETW evasion, syscall-based execution, reflective loading, and a Python CLI orchestrator with 12 modules. Docker cross-compilation for Windows/Linux/macOS/Android.
+**GitHub:** https://github.com/Terminalkid09/phantom
 
-- 🤖 **OSINT Discord Bot** — Python + Docker  
-  Modular bot for Open Source Intelligence (OSINT) and cybersecurity recon tasks.  
-  Includes IP lookup, breach check, port scanning, WHOIS, social scan, and more.  
-  Fully containerized with Docker and docker-compose.  
-  **GitHub:** https://github.com/Terminalkid09/osint-bot-py
+### 🛡️ Aegis — XDR/SIEM Ecosystem v3.0.0
+Production-grade XDR/SIEM platform with 5 microservices: Java/Spring Boot ingestion gateway, Python/FastAPI correlation engine (200+ threat signatures), cross-platform Java/JNA agent, host telemetry agent, and React dashboard. SOAR playbook engine, AI analysis (Ollama), anomaly detection, encrypted notes.
+**GitHub:** https://github.com/Terminalkid09/aegis-ecosystem
 
-- 🛡️ **AI Security Suite** - Python
-  The **AI Security Suite** is a modular, microservice‑based security toolkit designed for real-world cybersecurity workflows.  
-  It combines machine learning, OSINT techniques, anomaly detection, and password intelligence into a single, unified dashboard.
-  **GitHub:** https://github.com/Terminalkid09/ai-security-suite
-
-- 🔐 **VaultX** — Full-Stack Note Management System  
-  Secure web app for registering, logging in, and managing notes with JWT authentication.  
-  Built with React, Node.js, Express, and MongoDB.  
-  **GitHub:** https://github.com/Terminalkid09/vaultx
-
-- 📊 **SQL Security Dashboard** — Python + FastAPI + SQL 
-  Interactive dashboard for analyzing security logs with automated data enrichment and 8 dynamic visualizations.  
-  **Live Demo:** https://sql-dashboard-m2gh.onrender.com  
-  **GitHub:** https://github.com/Terminalkid09/incident-response-sql
-
-- 🖲️ **NodeTrace** - Full-Stack monitoring platform - Python/FastAPI + C#/C++/Java
-  Real-time monitoring and analytics with multi-language agents, real-time telemetry, alerts and
-  a modern web dashboard.
-  **GitHub:** https://github.com/Terminalkid09/nodetrace
-
-- 🔴 **Phantom** — Offensive Security Framework — Python
-  Interactive CLI shell for penetration testing that orchestrates Nmap, Gobuster, 
-  Hydra, SQLmap, Metasploit and more in a single session with preview-driven 
-  command workflow, exploitability scoring and report generation.
-  **GitHub:** https://github.com/Terminalkid09/Phantom
-  
-- 🛡️ **Aegis EDR Ecosystem** — Java + Spring Boot + Python + React
-  Modular detection, ingestion, and analysis stack for process telemetry. Includes a multi-OS agent, high-throughput gateway, and heuristic engine.
-  **GitHub:** https://github.com/Terminalkid09/aegis-ecosystem
-More projects in development.
+### 🐙 Kraken — Honeypot Intelligence Platform v1.0.0
+Multi-protocol honeypot network (SSH, HTTP, FTP, Telnet) with GeoIP enrichment, interactive Docker sandboxes, JWT auth, Telegram alerts, and full Prometheus/Grafana/Alertmanager monitoring. Export reports in CSV, JSON, PDF. 10 Docker services.
+**GitHub:** https://github.com/Terminalkid09/kraken
 
 ---
 
-## Technologies & Skills
+## Other Projects
 
-### **Languages**
-- Python • C# • Java • C++ • Javascript 
+- **🖲️ NodeTrace** — Multi-agent monitoring platform (Python, C#, C++, Java agents)
+- **🤖 OSINT Discord Bot** — Modular async Discord bot for OSINT recon
+- **🔐 VaultX** — Secure full-stack note management (React + Node.js + MongoDB)
+- **🛡️ AI Security Suite** — ML-powered security toolkit (3 microservices)
+- **📊 SQL Security Dashboard** — Security log analysis with 8 visualizations
+- More on GitHub: https://github.com/Terminalkid09
 
-### **Web Development**
-- HTML • CSS • FastAPI • React (basics)
+---
 
-### **Database & SQL**
-- SQL • SQLite • SQLalchemy • Data analysis workflows • PostgreSQL
+## Skills
 
-### **Cybersecurity & OSINT**
-- TryHackMe • Recon tools • WHOIS • DNS • Port scanning • OSINT • Penetration testing • CLI framework development • CVE correlation
-
-### **Data & Monitoring**
-- Real-time telemetry • Alerting system • REST APIs • Dashboard development
-
-### **Python Ecosystem**
-- Discord.py • aiohttp • phonenumbers • asyncio • automation scripts
-
-### **DevOps & Deployment**
-- **Docker** • **Docker Compose**  
-- Environment variables • Reproducible builds  
-- Git • GitHub
+| Area | Technologies |
+|------|-------------|
+| **Languages** | Python, Java, C++, C#, JavaScript, TypeScript, SQL |
+| **Backend** | FastAPI, Spring Boot, Node.js/Express, SQLAlchemy, asyncio |
+| **Security** | C2 Frameworks, Beacon Dev (C++/ASM), AMSI/ETW Evasion, SIEM/XDR, Honeypots, OSINT, Cryptography (AES-GCM, JWT, bcrypt, Argon2id) |
+| **Infrastructure** | PostgreSQL, Redis, MongoDB, Docker, Docker Compose, Nginx, GitLab CI |
+| **Frontend** | React, Vite, Tailwind CSS |
+| **AI/ML** | Ollama, scikit-learn, TensorFlow/Keras |
+| **Tools** | mitmproxy, Ruff, mypy, pytest, Alembic |
 
 ---
 
 ## About Me
 
-I'm a backend‑focused developer with a strong interest in cybersecurity and system design.  
-I learn by building real tools, monitoring platforms, security utilities, data pipelines and refining them until they feel reliable, clean, and production‑ready.
+I learn by building real tools that solve real problems. My focus is on clean architecture, security fundamentals, and systems that work in production. Every project is containerized, tested, and CI/CD-ready.
 
-My background blends backend engineering with practical cybersecurity fundamentals: Linux, networking, reconnaissance, and hands‑on experimentation (including structured study through resources like Kali‑based workflows).
-
-I enjoy creating software that solves real problems, with an emphasis on clarity, modularity, and technical depth.  
-My long‑term goal is to become a backend engineer with strong security awareness, capable of designing robust systems from the ground up.
-
----
-
-## 📬 Contact
-
-- GitHub: [@Terminalkid09](https://github.com/Terminalkid09)    
-- Email: [Terminalkid09@gmail.com](mailto:Terminalkid09@gmail.com)
+**Contact:** [Terminalkid09@gmail.com](mailto:Terminalkid09@gmail.com) · [GitHub](https://github.com/Terminalkid09)
