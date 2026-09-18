@@ -18,8 +18,8 @@ Full-spectrum offensive security framework with three integrated modes: (1) C2 O
 
 **GitHub:** https://github.com/Terminalkid09/phantom
 
-### 🛡️ Aegis — XDR/SIEM Ecosystem v3.0.0
-Production-grade XDR/SIEM platform with 5 microservices: Java/Spring Boot ingestion gateway (syslog UDP + HTTP), Python/FastAPI correlation engine (200+ threat signatures), cross-platform Java/JNA endpoint agent, host telemetry agent, and React dashboard with 12 views. SOAR playbook engine, AI analysis (Ollama), anomaly detection, VaultX encrypted notes, full monitoring stack.
+### 🛡️ Aegis — XDR/SIEM Ecosystem v4.0.0
+End-to-end detection and response platform installed from a clone with a single command: Java/Spring Boot ingestion gateway (syslog UDP + HTTP, 12 log parsers), Python/FastAPI correlation engine, React dashboard, plus two endpoint agents — a Java/JNA EDR sensor (process lineage, file-integrity monitoring, on-demand YARA, persistence snapshots, remote response) and a host telemetry agent (metrics, network flows, logged-in users, eBPF on Linux). Detection is deterministic end to end: 15 static rules, 14 community Sigma rules run through an in-house compiler, 5 correlation rules, 111 named attack-tool/LOLBin signatures, IP reputation and statistical anomaly detection, with every alert mapped to MITRE ATT&CK. SIEM side: OCSF-aligned event schema with deduplication and sequence-gap detection, search across 24 filterable fields, configurable retention, OCSF export. SOAR playbooks with dry-run preview, per-action risk/reversibility metadata and rollback for the reversible ones (quarantine, DNS sinkhole, firewall/hosts rules); response actions include process-tree kill, quarantine and persistence removal. Security engineering: mTLS enrollment on an internal PKI, RBAC, full audit log, KEK-encrypted integration keys, and a pluggable AI provider (local Ollama or Gemini/OpenAI chosen from the dashboard — alert context is anonymized before leaving the network, and AI only summarizes, never detects). 574 backend tests plus end-to-end API smoke; whole stack ≈ 500 MB RAM with AI off.
 
 **GitHub:** https://github.com/Terminalkid09/aegis-ecosystem
 
