@@ -43,6 +43,7 @@ Multi-protocol honeypot network (SSH, HTTP, FTP, Telnet) with real-time attack d
 
 ## Languages & Stack
 
+<!-- stats:start -->
 Where the code actually is, rather than where I would like it to be — source lines
 across my own repositories, tracked files only (vendored dependencies, generated
 code and build output excluded):
@@ -54,18 +55,18 @@ pie showData
     "TypeScript" : 69865
     "C++" : 46407
     "Java" : 10920
+    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 7820
     "Go" : 4018
-    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 7138
 ```
 
 | Language | Lines | Share | Share of all source lines |
 |---|---:|---:|---|
-| **Python** | 322,406 | 70.0% | `██████████████░░░░░░` |
-| **TypeScript** | 69,865 | 15.2% | `███░░░░░░░░░░░░░░░░░` |
+| **Python** | 322,406 | 69.9% | `██████████████░░░░░░` |
+| **TypeScript** | 69,865 | 15.1% | `███░░░░░░░░░░░░░░░░░` |
 | **C++ / headers** | 46,407 | 10.1% | `██░░░░░░░░░░░░░░░░░░` |
 | **Java** | 10,920 | 2.4% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 7,820 | 1.7% | `▏░░░░░░░░░░░░░░░░░░░` |
 | **Go** | 4,018 | 0.9% | `▏░░░░░░░░░░░░░░░░░░░` |
-| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 7,138 | 1.5% | `▏░░░░░░░░░░░░░░░░░░░` |
 
 One bar is a 20-cell scale: the small ones are small on purpose. That is the honest
 picture — Python is where most of the work happens (platform backends, automation
@@ -73,8 +74,9 @@ and the test suites), TypeScript is the desktop and dashboard layer, C++ is the
 native side (beacons, injection, syscalls).
 
 The figures include test suites, which are a large part of the work here; excluding
-test files the split is Python 62.3%, TypeScript 19.5%, C++ 12.9%, Java 2.4%,
-Go 0.9%. Measured over the tracked source of every repository below, on 2026-10-24.
+test files the split is Python 62.2%, TypeScript 19.4%, C++ 12.9%, Java 2.4%, Go 0.9%.
+Measured over the tracked source of every repository above, on 2026-10-24.
+<!-- stats:end -->
 
 ---
 

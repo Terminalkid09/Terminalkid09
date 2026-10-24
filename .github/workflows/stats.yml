@@ -1,0 +1,51 @@
+name: stats
+
+# Keeps the language table in this README identical to the one on the site:
+# same script, same public-repository discovery, same rules. The script lives
+# in the portfolio repo (one copy, no drift), and the block it rewrites is the
+# one between <!-- stats:start --> and <!-- stats:end -->.
+on:
+  schedule:
+    - cron: "20 4 * * 1" # Mondays, 04:20 UTC — after the portfolio job
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch the measuring script
+        run: git clone --depth 1 https://github.com/Terminalkid09/MyPortfolio-React.git .stats
+
+      - name: Rewrite the stats block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >
+          node .stats/scripts/measure-languages.mjs
+          --from-api Terminalkid09
+          --workdir "$RUNNER_TEMP/repos"
+          --readme README.md
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No change in the measurement."
+            exit 0
+          fi
+          git config user.name "Terminalkid09"
+          git config user.email "Terminalkid09@gmail.com"
+          git add README.md
+          git commit -m "Refresh the language split from the weekly measurement"
+          git push
