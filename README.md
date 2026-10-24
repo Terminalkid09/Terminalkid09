@@ -1,6 +1,6 @@
 # Terminalkid09 — Backend & Security Engineer
 
-16-year-old self-taught developer from Italy. I build production-grade security systems: MITM interception tools, C2 frameworks, SIEM platforms, honeypot networks, and AI-powered security tooling.
+17-year-old self-taught developer from Italy. I build production-grade security systems: MITM interception tools, C2 frameworks, SIEM platforms, honeypot networks, and AI-powered security tooling.
 
 **Live Portfolio:** https://terminalkid09-portfolio-react.netlify.app/
 
@@ -38,6 +38,43 @@ Multi-protocol honeypot network (SSH, HTTP, FTP, Telnet) with real-time attack d
 - **🛡️ AI Security Suite** — ML-powered security toolkit (3 microservices)
 - **📊 SQL Security Dashboard** — Security log analysis with 8 visualizations
 - More on GitHub: https://github.com/Terminalkid09
+
+---
+
+## Languages & Stack
+
+Where the code actually is, rather than where I would like it to be — source lines
+across my own repositories, tracked files only (vendored dependencies, generated
+code and build output excluded):
+
+```mermaid
+pie showData
+    title Source lines by language
+    "Python" : 322406
+    "TypeScript" : 69865
+    "C++" : 46407
+    "Java" : 10920
+    "Go" : 4018
+    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 7138
+```
+
+| Language | Lines | Share | Share of all source lines |
+|---|---:|---:|---|
+| **Python** | 322,406 | 70.0% | `██████████████░░░░░░` |
+| **TypeScript** | 69,865 | 15.2% | `███░░░░░░░░░░░░░░░░░` |
+| **C++ / headers** | 46,407 | 10.1% | `██░░░░░░░░░░░░░░░░░░` |
+| **Java** | 10,920 | 2.4% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Go** | 4,018 | 0.9% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 7,138 | 1.5% | `▏░░░░░░░░░░░░░░░░░░░` |
+
+One bar is a 20-cell scale: the small ones are small on purpose. That is the honest
+picture — Python is where most of the work happens (platform backends, automation
+and the test suites), TypeScript is the desktop and dashboard layer, C++ is the
+native side (beacons, injection, syscalls).
+
+The figures include test suites, which are a large part of the work here; excluding
+test files the split is Python 62.3%, TypeScript 19.5%, C++ 12.9%, Java 2.4%,
+Go 0.9%. Measured over the tracked source of every repository below, on 2026-10-24.
 
 ---
 
