@@ -75,7 +75,7 @@ native side (beacons, injection, syscalls).
 
 The figures include test suites, which are a large part of the work here; excluding
 test files the split is Python 53.7%, TypeScript 16.3%, C++ 19.9%, Java 4.6%, Go 0.4%.
-Measured over the tracked source of every repository above, on 2026-10-24.
+Measured over the tracked source of every repository above, on 2026-10-26.
 <!-- stats:end -->
 
 ---
