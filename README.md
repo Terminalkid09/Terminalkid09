@@ -1,6 +1,6 @@
 # Terminalkid09 — Backend & Security Engineer
 
-17-year-old self-taught developer from Italy. I build production-grade security systems: MITM interception tools, C2 frameworks, SIEM platforms, honeypot networks, and AI-powered security tooling.
+17-year-old self-taught developer from Italy. I build security systems end to end — native beacons, C2 infrastructure, detection platforms and the interfaces on top — and I document what is tested, what is only compiled, and what is still a limitation.
 
 **Live Portfolio:** https://terminalkid09-portfolio-react.netlify.app/
 
@@ -13,8 +13,8 @@ Electron + React + FastAPI + mitmproxy desktop application for professional MITM
 
 **GitHub:** https://github.com/Terminalkid09/nyx
 
-### 👻 Phantom — Autonomous Red Team Framework v2.0.0
-Full-spectrum offensive security framework with three integrated modes: (1) C2 Operations Center — cross-platform beacons (Windows PE, Linux ELF, Android ARM64, macOS) with AES-256-GCM + mTLS + HMAC, 35+ commands (shell, screenshot, keylog, inject, SOCKS5, SMB pipe, browser/CDP pivot, cookies, GPS, camera, audio), reflective in-memory loading, NTDLL unhooking, sleep masking, Ekko obfuscation, indirect/direct syscalls; (2) 12 Interactive Pentest Modules — scan, OSINT, web, exploit, brute, payload, handler, analyzer, pivot, wifi, wordlist, report with state-aware suggestions; (3) Autonomous Kill-Chain Agent (WIP) — deterministic planner + anomaly engine for autonomous kill chain execution (recon → exploit → beacon deploy → persistence → lateral), sub-agents for parallel campaigns, social engineering chain (persona → breach check → phish delivery → IP grab → network pivot). Includes React + TypeScript Electron GUI (18 views), 101 tests, Docker CI/CD. 68k LOC across Python/C++/ASM/TS.
+### 👻 Phantom — Offensive Security Framework v3.0.0
+Open-source red-team framework with three integrated workflows: a cross-platform C2 (Windows PE, Linux ELF, Android ARM64, macOS) using AES-256-GCM + mTLS + per-beacon HMAC; 12 interactive pentest modules; and an offline auto-mode that plans the chain from recon to persistence. React + TypeScript Electron client with 25 panels. v3.0.0 ships with 6,500+ tests, CI on Python 3.10–3.12 plus beacon builds on all four platforms, and a lab-verified kill chain with a real beacon check-in. MIT licensed.
 
 **GitHub:** https://github.com/Terminalkid09/phantom
 
