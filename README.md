@@ -51,22 +51,22 @@ code and build output excluded):
 ```mermaid
 pie showData
     title Source lines by language
-    "Python" : 121392
-    "C++" : 34427
-    "TypeScript" : 29236
-    "Java" : 10334
-    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 8719
-    "Go" : 653
+    "Python" : 344453
+    "C++" : 46949
+    "TypeScript" : 40730
+    "Java" : 10920
+    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 9201
+    "Go" : 4018
 ```
 
 | Language | Lines | Share | Share of all source lines |
 |---|---:|---:|---|
-| **Python** | 121,392 | 59.3% | `████████████░░░░░░░░` |
-| **C++ / headers** | 34,427 | 16.8% | `███░░░░░░░░░░░░░░░░░` |
-| **TypeScript** | 29,236 | 14.3% | `███░░░░░░░░░░░░░░░░░` |
-| **Java** | 10,334 | 5.0% | `█░░░░░░░░░░░░░░░░░░░` |
-| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 8,719 | 4.3% | `█░░░░░░░░░░░░░░░░░░░` |
-| **Go** | 653 | 0.3% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Python** | 344,453 | 75.5% | `███████████████░░░░░` |
+| **C++ / headers** | 46,949 | 10.3% | `██░░░░░░░░░░░░░░░░░░` |
+| **TypeScript** | 40,730 | 8.9% | `██░░░░░░░░░░░░░░░░░░` |
+| **Java** | 10,920 | 2.4% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 9,201 | 2.0% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Go** | 4,018 | 0.9% | `▏░░░░░░░░░░░░░░░░░░░` |
 
 One bar is a 20-cell scale: the small ones are small on purpose. That is the honest
 picture — Python is where most of the work happens (platform backends, automation
@@ -74,8 +74,8 @@ and the test suites), TypeScript is the desktop and dashboard layer, C++ is the
 native side (beacons, injection, syscalls).
 
 The figures include test suites, which are a large part of the work here; excluding
-test files the split is Python 53.7%, TypeScript 16.3%, C++ 19.9%, Java 4.6%, Go 0.4%.
-Measured over the tracked source of every repository above, on 2026-11-09.
+test files the split is Python 68.5%, TypeScript 11.7%, C++ 13.6%, Java 2.5%, Go 0.9%.
+Measured over the tracked source of every repository above, on 2026-11-16.
 <!-- stats:end -->
 
 ---
