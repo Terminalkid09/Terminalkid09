@@ -51,21 +51,21 @@ code and build output excluded):
 ```mermaid
 pie showData
     title Source lines by language
-    "Python" : 344453
+    "Python" : 357778
     "C++" : 46949
-    "TypeScript" : 40730
-    "Java" : 10920
-    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 9201
+    "TypeScript" : 41550
+    "Java" : 11097
+    "Other (JS, Shell, PowerShell, C, ASM, C#, SQL)" : 10366
     "Go" : 4018
 ```
 
 | Language | Lines | Share | Share of all source lines |
 |---|---:|---:|---|
-| **Python** | 344,453 | 75.5% | `███████████████░░░░░` |
-| **C++ / headers** | 46,949 | 10.3% | `██░░░░░░░░░░░░░░░░░░` |
-| **TypeScript** | 40,730 | 8.9% | `██░░░░░░░░░░░░░░░░░░` |
-| **Java** | 10,920 | 2.4% | `▏░░░░░░░░░░░░░░░░░░░` |
-| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 9,201 | 2.0% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Python** | 357,778 | 75.8% | `███████████████░░░░░` |
+| **C++ / headers** | 46,949 | 10.0% | `██░░░░░░░░░░░░░░░░░░` |
+| **TypeScript** | 41,550 | 8.8% | `██░░░░░░░░░░░░░░░░░░` |
+| **Java** | 11,097 | 2.4% | `▏░░░░░░░░░░░░░░░░░░░` |
+| **Other** (JS, Shell, PowerShell, C, ASM, C#, SQL) | 10,366 | 2.2% | `▏░░░░░░░░░░░░░░░░░░░` |
 | **Go** | 4,018 | 0.9% | `▏░░░░░░░░░░░░░░░░░░░` |
 
 One bar is a 20-cell scale: the small ones are small on purpose. That is the honest
@@ -74,8 +74,8 @@ and the test suites), TypeScript is the desktop and dashboard layer, C++ is the
 native side (beacons, injection, syscalls).
 
 The figures include test suites, which are a large part of the work here; excluding
-test files the split is Python 68.5%, TypeScript 11.7%, C++ 13.6%, Java 2.5%, Go 0.9%.
-Measured over the tracked source of every repository above, on 2026-11-16.
+test files the split is Python 69%, TypeScript 11.5%, C++ 13.2%, Java 2.5%, Go 0.9%.
+Measured over the tracked source of every repository above, on 2026-11-23.
 <!-- stats:end -->
 
 ---
